@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.packages {
+  display: grid;
+  grid-gap: 20px;
+  /* Todo */
+}
+
+.package {
+  border: 1px solid grey;
+  border-radius: 10px;
+  overflow: hidden;
+
+  p {
+    margin: 0;
+  }
+
+  small {
+    color: grey;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .package-image {
+    position: relative;
+  }
+
+  .package-fav {
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+
+  .package-details {
+    padding: 10px;
+  }
+}
